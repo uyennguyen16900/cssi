@@ -1,0 +1,46 @@
+.firstPicture {
+  width: 100px;
+}
+
+.squished {
+  height: 10px;
+}
+
+body {
+  background-color: lightblue;
+}
+
+h2 {
+  /* font-size: 20px; */
+  color: blue;
+  font-style: italic;
+  /* background-image: url("me.jpg"); */
+}
+
+h1 {
+  color: white;
+}
+
+ul {
+  /* no bullet points */
+  list-style: square;
+  border: 3px dashed red;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+}
+
+img {
+  width: 320px;
+  padding: 10px;
+  border: solid pink;
+  margin: 20px;
+}
+
+.flexContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+
+}

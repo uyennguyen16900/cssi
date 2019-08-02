@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+    <ul>
+      {% for email in inbox %}
+        {% if email.unread %}
+          <li><b>{{email.subject}}</b>
+        {% else %}
+          <li>{{email.subject}}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </body>
+</html>
